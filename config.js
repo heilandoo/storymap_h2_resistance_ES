@@ -25,7 +25,7 @@ var config = {
             hidden: false,
             title: 'La red de gasoductos de hidrógeno prevista',
             // image: './assets/arcelor-mittal-surf.JPG',
-            description: 'Europa tiene previsto construir una gran red de gasoductos para transportar hidrógeno y gas fósil. Se prevé que la mayor parte del hidrógeno transportado proceda del norte de África y de zonas rurales del sur de Europa. El hidrógeno "verde" se considera ampliamente como una solución «sostenible» para un crecimiento económico e industrial infinito sin emisiones de CO₂, y como una solución única para la crisis climática en la que nos encontramos. Sin embargo, a lo largo del trazado de los gasoductos, las comunidades cuestionan este discurso, ya que sufren los impactos sobre las personas y el territorio. Están construyendo su propio futuro en resistencia a esta mega infraestructura energética.',
+            description: 'Europa tiene previsto construir una gran red de gasoductos para transportar hidrógeno y gas fósil. Se prevé que la mayor parte del hidrógeno transportado proceda del norte de África y de zonas rurales del sur de Europa. El hidrógeno "verde" se considera ampliamente como una solución "sostenible" para un crecimiento económico e industrial infinito sin emisiones de CO₂, y como una solución única para la crisis climática en la que nos encontramos. Sin embargo, a lo largo del trazado de los gasoductos, las comunidades cuestionan este discurso, ya que sufren los impactos sobre las personas y el territorio. Están construyendo su propio futuro en resistencia a esta mega infraestructura energética.',
             location: {
                 center: [-3, 43.5],
                 zoom: 3,
@@ -93,8 +93,7 @@ var config = {
             title: '¿Exportación por encima del uso local?',
             video: 'https://tube.xy-space.de/videos/embed/9miGr4SKwABhae1Q5FD9Ge?controls=1&title=1&peertubeLink=0',
             //image: './assets/IMG_3135.JPG',
-            description: 'Conocimos a Paco en el puerto de Xixón. Aquí confluyen dos gasoductos de la red, está previsto un almacén de hidrógeno y existe una terminal de Gas Natural Licuado para el transporte marítimo de gas fósil. Paco, de Ecoloxistes n’Aición d’Asturies, critica la infraestructura desmesurada para la exportación de gas, tanto aquí como en toda la Península Ibérica. Aunque el hidrógeno producido localmente puede ser una forma útil de abastecer a las industrias pesadas, el desarrollo actual apunta en la dirección opuesta. Este sistema no se basa en "hidrógeno que se produce y se utiliza localmente, cerca de donde se necesita", sino que "beneficia principalmente a las grandes empresas energéticas, que están interesadas sobre todo en ampliar sus propias redes de infraestructuras", afirma Paco.
-',
+            description: 'Conocimos a Paco en el puerto de Xixón. Aquí confluyen dos gasoductos de la red, está previsto un almacén de hidrógeno y existe una terminal de Gas Natural Licuado para el transporte marítimo de gas fósil. Paco, de Ecoloxistes n’Aición d’Asturies, critica la infraestructura desmesurada para la exportación de gas, tanto aquí como en toda la Península Ibérica. Aunque el hidrógeno producido localmente puede ser una forma útil de abastecer a las industrias pesadas, el desarrollo actual apunta en la dirección opuesta. Este sistema no se basa en "hidrógeno que se produce y se utiliza localmente, cerca de donde se necesita", sino que "beneficia principalmente a las grandes empresas energéticas, que están interesadas sobre todo en ampliar sus propias redes de infraestructuras", afirma Paco.',
             location: {
               center: [-5.6798, 43.57472],
               zoom: 12.52,
@@ -273,7 +272,7 @@ var config = {
             title: 'Aumenta la resistencia a lo largo del trazado del gasoducto',
             video: 'https://tube.xy-space.de/videos/embed/2vrw4jUZ5MbBM9GnDqW2To?controls=1&title=1&peertubeLink=0',
             image: '',
-            description: "A lo largo del trazado del gasoducto, las comunidades se resisten a estos procesos de colonialismo energético.  No quieren ser un "supermercado" para Europa, no quieren un gasoducto etiquetado como "verde" cuando la mayor parte de lo que circula por él es de origen fósil. Están a favor de una transición hacia fuentes de energía renovables. Pero exigen que esta transición tenga en cuenta las necesidades de las poblaciones rurales y no esté gobernada únicamente por la industria de los combustibles fósiles para mantener un modelo de negocio que arruina a las personas y al planeta.",
+            description: 'A lo largo del trazado del gasoducto, las comunidades se resisten a estos procesos de colonialismo energético.  No quieren ser un "supermercado" para Europa, no quieren un gasoducto etiquetado como "verde" cuando la mayor parte de lo que circula por él es de origen fósil. Están a favor de una transición hacia fuentes de energía renovables. Pero exigen que esta transición tenga en cuenta las necesidades de las poblaciones rurales y no esté gobernada únicamente por la industria de los combustibles fósiles para mantener un modelo de negocio que arruina a las personas y al planeta.',
             location: {
                 center: [-6, 40.57],
                 zoom: 5.1,
