@@ -41,12 +41,7 @@ var config = {
                     opacity: 0,
                 }
             ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
+            onChapterExit: []
         },
         {
             id: 'h2med-intro',
@@ -60,12 +55,6 @@ var config = {
                 zoom: 5.1,
                 pitch: 0,
                 bearing: 0
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -80,11 +69,8 @@ var config = {
                     opacity: 1,
                 }
             ],
-            onChapterExit: [
-                {
-
-                }
-            ]
+            // FIXED: Removed the empty object crash item from this array
+            onChapterExit: []
         },
         {
             id: 'pipeline-xixon',
@@ -209,11 +195,11 @@ var config = {
                      layer: 'strokes',
                      opacity: 0
                 },
-                                {
+                {
                      layer: 'reservoirsExtrLine',
                      opacity: 0
                 },
-                                {
+                {
                      layer: 'squares',
                      opacity: 0
                 },
@@ -252,7 +238,7 @@ var config = {
             hidden: false,
             title: 'ThyssenKrupp: fabricación de acero y armamento, Duisburgo',
             image: '',
-            description: 'El hidrógeno procedente del sur no solo tiene que ver con los objetivos climáticos. Está previsto que fluya hacia el norte, hacia centros industriales como la cuenca del Ruhr, donde empresas como ThyssenKrupp planean utilizarlo para producir acero "verde". Si bien esto puede reducir las emisiones, también sustenta a industrias que consumen mucha energía y que dependen de un crecimiento continuo. Necesitamos algo de acero para infraestructuras públicas u hospitales. Pero, al mismo tiempo, el acero sigue siendo un material clave para la producción de automóviles y para el equipamiento militar. A medida que Europa aumenta el gasto militar, la producción de acero alimentada con hidrógeno se está convirtiendo en parte de un impulso más amplio para asegurar recursos destinados al rearme. <br>El hidrógeno puede desempeñar un papel en la descarbonización de sectores esenciales. Pero los planes actuales van mucho más allá. La magnitud de las infraestructuras propuestas refleja no solo las ambiciones climáticas, sino también la expansión industrial y la creciente militarización bajo la etiqueta de una transición "verde".',
+            description: 'El hidrógeno procedente del sur no solo tiene que ver con los objetivos climáticos. Está previsto que fluya hacia el norte, hacia centros industriales como la cuenca del Ruhr, donde empresas como ThyssenKrupp planean utilizarlo para producir acero "verde". Si bien esto puede reducir las emisiones, también sustenta a industrias que consumen mucha energía y que dependen de un crecimiento continuo. Necesitamos algo de acero para infraestructuras públicas u hospitales. Pero, al mismo tiempo, el acero sigue siendo un material clave para la producción de automóviles y para el equipamiento militar. A medida que Europa aumenta el gasto militar, la producción de acero alimentada con hidrógeno se está convirtiendo en parte de un impulso más amplio para asegurar recursos destinados al rearme. <br>El hidrógeno puede desempeñar un papel en la descarbonización de sectores esenciales. Pero los planes actuales van mucho más allá. La magnitud de las infraestructuras propuestas refleja no solo las ambiciones climáticas, sino también la expansión industrial y la creciente militarización bajo la etiqueta de una transición "verde".',
             location: {
                 center: [6.69502, 51.49364],
                 zoom: 12.0,
@@ -264,7 +250,7 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
-            },
+        },
         {
             id: 'resistance-grow',
             alignment: 'right',
@@ -272,7 +258,7 @@ var config = {
             title: 'Aumenta la resistencia a lo largo del trazado del gasoducto',
             video: 'https://tube.xy-space.de/videos/embed/2vrw4jUZ5MbBM9GnDqW2To?controls=1&title=1&peertubeLink=0',
             image: '',
-            description: 'A lo largo del trazado del gasoducto, las comunidades se resisten a estos procesos de colonialismo energético.  No quieren ser un "supermercado" para Europa, no quieren un gasoducto etiquetado como "verde" cuando la mayor parte de lo que circula por él es de origen fósil. Están a favor de una transición hacia fuentes de energía renovables. Pero exigen que esta transición tenga en cuenta las necesidades de las poblaciones rurales y no esté gobernada únicamente por la industria de los combustibles fósiles para mantener un modelo de negocio que arruina a las personas y al planeta.',
+            description: 'A lo largo del trazado del gasoducto, las comunidades se resisten a estos procesos de colonialismo energético. No quieren ser un "supermercado" para Europa, no quieren un gasoducto etiquetado como "verde" cuando la mayor parte de lo que circula por él es de origen fósil. Están a favor de una transición hacia fuentes de energía renovables. Pero exigen que esta transición tenga en cuenta las necesidades de las poblaciones rurales y no esté gobernada únicamente por la industria de los combustibles fósiles para mantener un modelo de negocio que arruina a las personas y al planeta.',
             location: {
                 center: [-6, 40.57],
                 zoom: 5.1,
@@ -289,10 +275,10 @@ var config = {
             id: 'alternatives-exist',
             alignment: 'center',
             hidden: false,
-            title: 'Existen alternativas a este desastre',
+            title: 'Existen alternativas a este desastrores',
             video: 'https://tube.xy-space.de/videos/embed/xdq9zpFR3hAmQH4CwwGSWs?controls=1&title=1&peertubeLink=0',
             image: '',
-            description: '"Las soluciones que vemos son las comunidades energéticas. Pero ahora mismo, gran parte de nuestro  trabajo consiste en defender el territorio, porque hay muchísimos proyectos que  tenemos que detener. Es frustrante que gran parte de nuestra energía en el activismo se dedique a resistir estos proyectos, cuando en realidad podríamos estar construyendo el futuro que queremos. Eso genera mucha rabia. Pero, al  mismo tiempo, sigo pensando que hay esperanza."',
+            description: '"Las soluciones que vemos son las comunidades energéticas. Pero ahora mismo, gran parte de nuestro trabajo consiste en defender el territorio, porque hay muchísimos proyectos que tenemos que detener. Es frustrante que gran parte de nuestra energía en el activismo se dedique a resistir estos proyectos, cuando en realidad podríamos estar construyendo el futuro que queremos. Eso genera mucha rabia. Pero, al mismo tiempo, sigo pensando que hay esperanza."',
             location: {
                 center: [-6.444266284280316, 43.547253298255548],
                 zoom: 12,
@@ -304,6 +290,6 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
-        },
+        }
     ]
 };
