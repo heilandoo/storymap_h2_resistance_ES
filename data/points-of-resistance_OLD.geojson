@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "points-of",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "place": "xixon", "name": "paco" }, "geometry": { "type": "Point", "coordinates": [ -635076.304452071315609, 5398873.649169212207198 ] } },
+{ "type": "Feature", "properties": { "id": 2, "place": "la mudarra", "name": "julio cesar" }, "geometry": { "type": "Point", "coordinates": [ -549716.122613058309071, 5129716.152718001976609 ] } },
+{ "type": "Feature", "properties": { "id": 3, "place": "santa clara", "name": "jenaro" }, "geometry": { "type": "Point", "coordinates": [ -632813.222708051791415, 5066068.324824163690209 ] } },
+{ "type": "Feature", "properties": { "id": 4, "place": "villamayor", "name": "salvemos" }, "geometry": { "type": "Point", "coordinates": [ -634105.533153310767375, 5012248.210173553787172 ] } },
+{ "type": "Feature", "properties": { "id": 4, "place": "caceres", "name": "no a la mina" }, "geometry": { "type": "Point", "coordinates": [ -709391.847378563135862, 4789416.966255255974829 ] } },
+{ "type": "Feature", "properties": { "id": 5, "place": "almedralejo", "name": "colinialismoNO" }, "geometry": { "type": "Point", "coordinates": [ -713231.855558762443252, 4676579.802806323394179 ] } },
+{ "type": "Feature", "properties": { "id": 6, "place": "huelva", "name": "huelva" }, "geometry": { "type": "Point", "coordinates": [ -770019.66883901739493, 4465342.429739785380661 ] } },
+{ "type": "Feature", "properties": { "id": 7, "place": "queiruas", "name": "eva" }, "geometry": { "type": "Point", "coordinates": [ -717372.441302345949225, 5395643.834596566855907 ] } },
+{ "type": "Feature", "properties": { "id": 9, "place": "uveiu", "name": "fffasturies" }, "geometry": { "type": "Point", "coordinates": [ -651180.761835605138913, 5367330.697359264828265 ] } },
+{ "type": "Feature", "properties": { "id": 9, "place": "cadiz", "name": "daniel" }, "geometry": { "type": "Point", "coordinates": [ -701233.560768556781113, 4374133.004671153612435 ] } }
+]
+}
