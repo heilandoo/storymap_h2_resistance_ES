@@ -23,9 +23,9 @@ var config = {
             id: 'pipeline-intro',
             alignment: 'left',
             hidden: false,
-            title: 'The planned hydrogen pipeline network',
+            title: 'La red de gasoductos de hidrógeno prevista',
             // image: './assets/arcelor-mittal-surf.JPG',
-            description: 'Europe is planning a big network of pipelines to transport hydrogen and fossil gas. The majority of the hydrogen transported is supposed to come from northern Africa and rural areas in the south of Europe. "Green" hydrogen is widely considered as "sustainable" solution for infinite industrial economic growth without CO2 emissions and one-size-fits-it-all-solution for the climate crisis we are in. However, along the pipelines, communities question this story, suffering from the impacts on people and land. They are building their own futures in resistance to this mega energy infrastructure.',
+            description: 'Europa tiene previsto construir una gran red de gasoductos para transportar hidrógeno y gas fósil. Se prevé que la mayor parte del hidrógeno transportado proceda del norte de África y de zonas rurales del sur de Europa. El hidrógeno "verde" se considera ampliamente como una solución «sostenible» para un crecimiento económico e industrial infinito sin emisiones de CO₂, y como una solución única para la crisis climática en la que nos encontramos. Sin embargo, a lo largo del trazado de los gasoductos, las comunidades cuestionan este discurso, ya que sufren los impactos sobre las personas y el territorio. Están construyendo su propio futuro en resistencia a esta mega infraestructura energética.',
             location: {
                 center: [-3, 43.5],
                 zoom: 3,
@@ -52,9 +52,9 @@ var config = {
             id: 'h2med-intro',
             alignment: 'right',
             hidden: false,
-            title: 'The H2Med pipeline',
+            title: 'El gasoducto H2Med',
             // image: './assets/washington-dc.jpg',
-            description: 'The planned H2Med pipeline is supposed to transport energy from the Iberian Peninsula to Western Germany. In the name of the "green" transition the pipeline should export large amounts of hydrogen over more than 2000km. But this mega-infrastructure cannot fulfill the promises that are made. What the situation looks like: <ol><li>Large-scale energy export is prioritised over local use tied to necessity.</li><li>Industrial hydrogen production increases conflicts over land, water, and renewable energy.</li><li>Hydrogen allows fossil industries to prolong fossil fuel use through blending.</li></ol>This map tells stories of people and collectives who resist. They debunk myths, sabotage pipelines, and build alternative futures. Scroll down and follow along!',
+            description: 'El gasoducto H2Med, actualmente en proyecto, está destinado a transportar energía desde la Península Ibérica hasta el oeste de Alemania. En nombre de la transición "verde", el gasoducto debería exportar grandes cantidades de hidrógeno a lo largo de más de 2000 km. Sin embargo, esta megaestructura no puede cumplir las promesas que se han hecho. Ésta es la situación:<ol><li>Se da prioridad a la exportación de energía a gran escala frente al uso local vinculado a las necesidades.</li><li>La producción industrial de hidrógeno agrava los conflictos por la tierra, el agua y las energías renovables.</li><li>El hidrógeno permite a las industrias fósiles prolongar el uso de los combustibles fósiles mediante la mezcla.</li></ol> Este mapa cuenta las historias de personas y colectivos en resitencia. Desmontan mitos, sabotean gasoductos y construyen futuros alternativos. ¡Desplázate hacia abajo y síguenos!',
             location: {
                 center: [-6, 40.57],
                 zoom: 5.1,
